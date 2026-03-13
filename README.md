@@ -37,6 +37,19 @@ The data shows that different industries peaked at different stages in the 2020-
 <img width="700" height="406" alt="layoffs_by_industry" src="https://github.com/user-attachments/assets/2f378af4-ec66-4818-ada8-2b1cbc68f668" />
 </p>
 
+### 3. Layoffs accelerated in 2022-2023
+Monthly records show a sharp spike in 2022 into 2023, suggesting macroeconomic pressures following relative stability since the 2020 layoffs due to post-pandemic restructuring and correction.
+
+<p align="center">
+<img width="1000" height="319" alt="layoffs_per_month" src="https://github.com/user-attachments/assets/221efdd4-fd14-41ee-a8d1-e43c7b5651e0" />
+</p>
+
+### 4. The United States dominated layoff events
+
+<p align="center">
+<img width="1000" height="319" alt="layoffs_by_country" src="https://github.com/user-attachments/assets/a6fabc0d-70f2-4c6b-9246-f253dd4ff1b3" />
+</p>
+
 ## Dataset & Tools
 - Source: layoffs.csv
 - Tools: GitHub, MySQL, PowerBI
