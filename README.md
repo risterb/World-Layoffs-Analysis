@@ -45,6 +45,7 @@ Monthly records show a sharp spike in 2022 into 2023, suggesting macroeconomic p
 </p>
 
 ### 4. The United States dominated layoff events
+The United States job market saw the largest share of the layoffs, which signals the country's heavy investment and focus on the technology sector and startup ecosystem. 
 
 <p align="center">
 <img width="1000" height="319" alt="layoffs_by_country" src="https://github.com/user-attachments/assets/a6fabc0d-70f2-4c6b-9246-f253dd4ff1b3" />
@@ -64,5 +65,5 @@ Monthly records show a sharp spike in 2022 into 2023, suggesting macroeconomic p
 | percentage_laid_off | Share of workforce laid off |
 | funds_raised_millions | Funding raised prior to layoffs |
 | date | Date of the layoff event |
-
+| stage | Date of the layoff event |
 
