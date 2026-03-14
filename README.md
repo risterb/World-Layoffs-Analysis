@@ -51,6 +51,27 @@ The United States job market saw the largest share of the layoffs, which signals
 <img width="1000" height="319" alt="layoffs_by_country" src="https://github.com/user-attachments/assets/a6fabc0d-70f2-4c6b-9246-f253dd4ff1b3" />
 </p>
 
+### 5. Public companies conducted the most layofs 
+Company funding or ownership stage was categorized for this analysis, in order to understand layoffs trends for each stage in 2020-2023. Below is the query utilized for this insight:
+
+	SELECT YEAR(`date`) AS years,
+	CASE
+		WHEN stage IN ('Seed','Series A','Series B') THEN 'Early Stage'
+        WHEN stage IN ('Series C','Series D','Series E') THEN 'Growth Stage'
+        WHEN stage IN ('Series F','Series G','Series H','Series I','Series J') THEN 'Late Stage'
+        WHEN stage = 'Post-IPO' THEN 'Public Company'
+        WHEN stage='Unknown' OR stage IS NULL THEN 'Unknown'
+        ELSE 'Other'
+    END AS stage_category,
+	SUM(total_laid_off) AS layoffs
+	FROM layoffs_staging2
+	WHERE SUBSTRING(`date`,1,7) IS NOT NULL
+	GROUP BY years, stage_category;
+
+The results show that public companies lead the layoffs waves each year in 2020, 2022 and 2023 with an upward trend once the pandemic crisis had settled. Conversely, companies in early and growth stages conducted more layoffs at the start of the pandemic, and later settled when restritictions were lifted.
+
+
+
 ## Dataset & Tools
 - Source: layoffs.csv
 - Tools: GitHub, MySQL, PowerBI
@@ -65,5 +86,5 @@ The United States job market saw the largest share of the layoffs, which signals
 | percentage_laid_off | Share of workforce laid off |
 | funds_raised_millions | Funding raised prior to layoffs |
 | date | Date of the layoff event |
-| stage | Date of the layoff event |
+| stage | Funding or ownership stage of the company |
 
