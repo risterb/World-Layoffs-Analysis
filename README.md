@@ -75,7 +75,7 @@ The results show that public companies lead the layoffs waves each year in 2020,
 ## Dataset & Tools
 - Source: layoffs.csv
 - Tools: GitHub, MySQL, PowerBI
-- Key variables in data source
+- Key variables in data source:
 
 | Column | Description |
 |--------|-------------|
