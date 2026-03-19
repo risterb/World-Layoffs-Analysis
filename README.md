@@ -21,7 +21,7 @@ The project focuses on understaning:
 - Data Visualization
 - Power BI Dashboard Development
 
-## World Layofs Analysis
+## World Layoffs Analysis
 
 ### 1. Technology sector heavily impacted
 Technology companies account for the largest share of layoffs accross the world. This sector had an important expansion during the pandemic, followed by a significant correction in the market as the status of the emergency evolved. 
