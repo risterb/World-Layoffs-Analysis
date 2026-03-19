@@ -71,7 +71,7 @@ Company funding or ownership stage was categorized for this analysis, in order t
 The results show that public companies lead the layoffs waves each year in 2020, 2022 and 2023 with an upward trend once the pandemic crisis had settled. Conversely, companies in early and growth stages conducted more layoffs at the start of the pandemic, and later settled when restrictions were lifted.
 
 <p align="center">
-<img src="layoffs_company_stage.png" width="700" height="406" >
+<img src="Visuals/layoffs_company_stage.png" width="700" height="406" >
 </p>
 
 ### 6. Most layoffs were moderate in scale
@@ -94,7 +94,7 @@ In order to understand the layoff severity across the year, the events were clas
 Most layoff events were moderate in scale, with the 10-25% category being the most frequent across the entire dataset. The layoffs picked in 2022, likely explained by the correction post pandemic. Despite the market turbulence throughout these years, total company shutdowns remained relatively low across the board, signaling that though financially pressured, most companies opted for targeted workforce reductions, rather than extreme cuts.
 
 <p align="center">
-<img src="layoff_severity.png" width="700" height="406" >
+<img src="Visuals/layoff_severity.png" width="700" height="406" >
 </p>
 
 
